@@ -1,0 +1,177 @@
+<!DOCTYPE HTML>
+<!--
+	Paradigm Shift by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license
+-->
+<html>
+	<head>
+		<title>Music & Mental Health | An</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="A PHY-231 project on music and mental health." />
+		<meta name="keywords" content="music, mental health, regression, data analysis, PHY-231" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<div id="wrapper">
+
+			<!-- Intro -->
+			<section class="intro">
+				<header>
+					<h1>Music & Mental Health</h1>
+					<p>Who benefits the most from music?</p>
+					<ul class="actions">
+						<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
+					</ul>
+				</header>
+				<div class="content">
+					<span class="image fill" data-position="center">
+						<img src="images/cover.jpg" alt="Illustration of music affecting mental health" />
+					</span>
+				</div>
+			</section>
+
+			<!-- Project Overview -->
+			<section id="first">
+				<header>
+					<h2>Project Overview</h2>
+				</header>
+				<div class="content">
+					<p><strong>This project uses survey data</strong> to examine how music relates to mental health. I focused on whether people who say music improves their mental health tend to start with higher anxiety and depression.</p>
+					<p>Rather than just describing the data, I used regression analysis to test whether the patterns were meaningful and statistically significant.</p>
+				</div>
+			</section>
+
+			<!-- Research Questions -->
+			<section>
+				<header>
+					<h2>Research Questions</h2>
+				</header>
+				<div class="content">
+					<p><strong>The project was guided by three main questions:</strong></p>
+					<ul class="feature-icons">
+						<li class="icon solid fa-headphones">Do people who report benefits from music start with worse mental health?</li>
+						<li class="icon solid fa-brain">Is the relationship between music and mental health statistically significant?</li>
+						<li class="icon solid fa-chart-line">Does listening time affect the probability of saying music improves mental health?</li>
+						<li class="icon solid fa-music">Are music habits connected to mental health patterns?</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- Method -->
+			<section>
+				<header>
+					<h2>What I Did</h2>
+				</header>
+				<div class="content">
+					<p><strong>I used regression analysis</strong> to study the relationship between music and mental health outcomes. This method helped me test whether differences in anxiety, depression, and reported improvement were likely to be real patterns instead of random chance.</p>
+				</div>
+			</section>
+
+			<!-- Plot -->
+			<section>
+				<header>
+					<h2>Best Plot</h2>
+				</header>
+				<div class="content">
+					<p><strong>Figure 1.</strong> This plot shows that as daily listening time increases, the probability of reporting that music improves mental health also rises.</p>
+					<span class="image main">
+						<img src="images/plot.png" alt="Listening time and reported mental health benefit plot" />
+					</span>
+				</div>
+			</section>
+
+			<!-- Findings -->
+			<section>
+				<header>
+					<h2>Key Findings</h2>
+				</header>
+				<div class="content">
+					<p><strong>People who reported that music improves their mental health tended to have higher baseline anxiety.</strong> The regression coefficient for the improvement group was positive and statistically significant, which means the difference is unlikely to be random.</p>
+					<p>Listening time also mattered. The results suggest that spending more time listening to music is associated with a higher probability of reporting mental health improvement, although the relationship is not perfectly linear.</p>
+				</div>
+			</section>
+
+			<!-- Regression Results -->
+			<section>
+				<header>
+					<h2>Regression Results</h2>
+				</header>
+				<div class="content">
+					<p><strong>The regression tables below support the main findings.</strong> One model shows that people in the “improve” group had higher anxiety on average. The second model shows that listening time is positively associated with the probability of reporting mental health improvement.</p>
+
+					<div class="gallery">
+						<a href="images/regression1.png" class="landscape">
+							<img src="images/regression1.png" alt="OLS regression results for anxiety" />
+						</a>
+						<a href="images/regression2.png" class="landscape">
+							<img src="images/regression2.png" alt="OLS regression results for improvement probability" />
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- Interpretation -->
+			<section>
+				<header>
+					<h2>Interpretation</h2>
+				</header>
+				<div class="content">
+					<p><strong>Overall, the results suggest that music may be especially helpful for people starting from a harder mental health state.</strong> In other words, the people who seem to benefit most from music may also be the ones who began with higher anxiety or emotional distress.</p>
+				</div>
+			</section>
+
+			<!-- Data Source -->
+			<section>
+				<header>
+					<h2>Data Source</h2>
+				</header>
+				<div class="content">
+					<p><strong>Dataset:</strong> Music & Mental Health Survey Dataset</p>
+					<p><strong>Source:</strong> Kaggle</p>
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<section>
+				<header>
+					<h2>Project Info</h2>
+				</header>
+				<div class="content">
+					<p>This website presents my PHY-231 data analysis project on the relationship between music and mental health.</p>
+				</div>
+				<footer>
+					<ul class="items">
+						<li>
+							<h3>Course</h3>
+							<span>PHY-231</span>
+						</li>
+						<li>
+							<h3>Project</h3>
+							<span>GitHub Website Project</span>
+						</li>
+						<li>
+							<h3>Author</h3>
+							<span>An</span>
+						</li>
+					</ul>
+				</footer>
+			</section>
+
+			<div class="copyright">
+				&copy; An. Design adapted from HTML5 UP.
+			</div>
+
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
